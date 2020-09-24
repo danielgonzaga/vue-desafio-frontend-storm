@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+
+html {
+    margin: 0;
+    padding: 0;
+    /*overflow: hidden;*/
+    background-color:#F5F5F5;
+}
+
+.v-data-table > .v-data-table__wrapper > table > tbody > tr > th,
+.v-data-table > .v-data-table__wrapper > table > thead > tr > th,
+.v-data-table > .v-data-table__wrapper > table > tfoot > tr > th {
+    font-family: Roboto;
+    font-size: 14px !important;
+    font-weight: 500;
+    color: #333333;
+}
+
+.v-data-table > .v-data-table__wrapper > table > tbody > tr > td {
+    font-family: Roboto;
+    font-size: 14px !important;
+    color: #333333;
+}
+
+.v-data-table > .v-data-table__wrapper > table > tbody > tr:nth-child(even) {
+    background-color: #E9E9E9;
+}
+
+.v-data-table > .v-data-table__wrapper > table > tbody > tr:nth-child(odd) {
+    background-color: #F5F5F5;
+}
+
+.v-data-table > .v-data-table__wrapper > table > tbody > tr > td:nth-child(7) {
+    font-weight: 500;
+    color: #31BA1F;
+}
